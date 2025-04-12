@@ -20,9 +20,9 @@
 const whois = require("whois-json");
 
 (async () => {
-  const domain = "x.com"; 
+  const domain = "fdjye"; 
   const data = await whois(domain);
-  console.log(data);
+//   console.log(data);
 })();
 
 

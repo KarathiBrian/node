@@ -179,20 +179,73 @@
 ////EXAMPLE 7
 
 
-const { readFile, writeFile } = require("fs").promises
+// const { readFile, writeFile } = require("fs").promises
 
-const rm = async () => {
-    try {
-        const br = await readFile("loop.txt", "utf8")
-        console.log(br);
-        await writeFile("loop5.txt", "heyy", { flag: "w" })
+// const rm = async () => {
+//     try {
+//         const br = await readFile("loop.txt", "utf8")
+//         console.log(br);
+//         await writeFile("loop5.txt", "heyy", { flag: "w" })
 
-    } catch (error) {
-        console.log(error);
+//     } catch (error) {
+//         console.log(error);
         
-    }
-}
-rm()
+//     }
+// }
+// rm()
+
+
+
+
+
+////EXAMPLE 8
+
+
+// const {writeFile,readFile}=require("fs").promises
+
+// const remainder= async()=>{
+// const me=await readFile("loop5.txt","utf8")
+// console.log(me);
+
+// await writeFile("loop9.txt","KARATHI BRIAN")
+
+// }
+
+// remainder()
+    
+
+
+
+
+// const { log } = require("console");
+// const fs= require("fs")
+
+// fs.readFile("loop.txt","utf8", (err,result)=>{
+// if(err){
+
+//     console.log(err);
+//     return
+// }
+// console.log(result);
+
+
+// fs.writeFile("loop5.txt","Its been long \n",{flag:"a"},(err,result)=>{
+// if(err){
+
+//     console.log(err);
+//     return
+// }
+// console.log(result);
+
+// })
+
+
+
+
+// })
+
+
+
 
 
 
