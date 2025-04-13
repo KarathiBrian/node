@@ -3,17 +3,17 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-"fs2":"node FS/fs2.js",
-"fs3":"node FS/fsB/fs3.js",
-"pp":"nodemon FS/fsB/fs3.js",
-"loop":"nodemon CodeCampNode/eventLoop/loop.js"
-
+    "fs2": "node FS/fs2.js",
+    "fs3": "node FS/fsB/fs3.js",
+    "pp": "nodemon FS/fsB/fs3.js",
+    "loop": "nodemon CodeCampNode/eventLoop/loop.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "express": "^5.1.0",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
