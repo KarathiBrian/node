@@ -14,7 +14,9 @@
   "description": "",
   "dependencies": {
     "express": "^5.1.0",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "morgan": "^1.10.0",
+    "unirest": "^0.6.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"

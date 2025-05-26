@@ -1,0 +1,30 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+.wan2{
+height: 50vh;
+width: 100%;
+background-color: blueviolet;
+
+}
+
+.wan2 h1{
+color: chocolate;
+font-size: 600;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.wan2 img{
+
+height: 30%;
+width: 70%;
+
+}
+
+
+

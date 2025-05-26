@@ -248,6 +248,65 @@
 
 
 
+// const {readFile,writeFile}=require("fs").promises
+
+// const brian=async()=>{
+// try {
+    
+// const a=await readFile("loop2.txt","utf8")
+
+// console.log(a);
+
+
+
+// await writeFile("loop10.txt","heyyyyy")
+
+
+
+
+
+// } catch (error) {
+//  console.log(error);
+    
+// }
+
+
+// }
+
+
+// brian()
+
+
+
+
+
+
+
+const {readFile,writeFile}= require("fs").promises
+
+const bri= async()=>{
+
+try {
+    
+const b= await readFile("loop10.txt","utf8")
+console.log(b);
+
+await writeFile("loop3.txt","you good",{flag:"a"})
+} catch (error) {
+    console.log(error);
+    
+}
+
+
+}
+
+bri()
+
+
+
+
+
+
 
 
 
